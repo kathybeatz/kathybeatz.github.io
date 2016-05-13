@@ -1,13 +1,95 @@
-.colored-div{
-  background-color: #999999;
+* {
+  font-family: Arial;
 }
 
-.container {
-  max-width: 1200px;
+
+.landing-page-wrapper p { 
+   font-family: 'Playball';
+   position: absolute; 
+   top: -4vh; 
+   left: 3%;  
+   font-size: 250%;
+   color: black;
+}
+
+.landing-page {
+  max-width: 100%;
+  opacity: 0.7;
+  filter: grayscale(100%);
+}
+
+.projects {
+  text-align: center;
+}
+
+.demo-section {
+  max-width: 600px;
   padding: 0 0;
   margin: 0 auto;
   text-align: center;
 }
+
+.jobber-logger {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.tga-fightclub {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.data-structrz {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.data-des {
+  max-height: 30%;
+  max-width: 40%;
+
+}
+
+.demo {
+  -webkit-transition: all 0.5s ease; /* Safari and Chrome */
+  -moz-transition: all 0.5s ease; /* Firefox */
+  -o-transition: all 0.5s ease; /* IE 9 */
+  -ms-transition: all 0.5s ease; /* Opera */
+  transition: all 0.5s ease;
+}
+
+.demo:hover {
+  box-shadow: 0px 0px 3px #aaaaaa;
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+  -moz-transform:scale(1.05); /* Firefox */
+  -ms-transform:scale(1.05); /* IE 9 */
+  -o-transform:scale(1.05); /* Opera */
+  transform:scale(1.05);
+}
+
+.navbar {
+  position: relative;
+  height: 10vh;
+  line-height: 8vh; /* vert. center text hack */
+  padding-left: 3vw;
+  padding-right: 4vw;
+  background-color: #333333;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+
+.container {
+  max-width: 900px;
+  padding: 0 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
 
 /*  SECTIONS  */
 .section {
